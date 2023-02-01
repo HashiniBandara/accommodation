@@ -1,0 +1,47 @@
+.file-display-single{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.file-display-single>img{
+    display: inline-block;
+    max-width: 200px;
+    max-height: 150px;
+    object-fit: cover;
+    vertical-align: top;
+    border-radius: 10px;
+    border: 1px solid #aaa;
+    background-color: #eee;
+}
+
+.file-display-single.small>img{
+    padding: 10px;
+}
+
+.file-display-single>span{
+    display: inline-block;
+    margin-left: -20px;
+    background-color: #900;
+    color: white;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: -10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.file-display-single.small>span{
+    margin-left: -10px;
+}
+
+.file-display-single.vid>video{
+    height: 150px;
+    vertical-align: top;
+}
+
+.file-display-single.vid>span{
+    margin-left: 0px;
+}
